@@ -7,7 +7,7 @@
             .playlist_image {
                 border-radius: 900px;
                 box-shadow: 0 0 1em grey;
-                margin: 40px;
+                margin: 15px;
             }
 
             .fundo {
@@ -15,7 +15,6 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 padding: 5px;
-            
             }
 
             body {
@@ -25,37 +24,73 @@
             }
 
             body a {
-                color: #fff;
+                color: grey;
             }
 
             h1 {
                 font-size: 50px;
-                margin: 10px;
+                margin: 5px;
             }
 
 
             h3 {
                 font-size: 12px;
-                margin-top: 30px;
+                margin-top: 20px;
+                margin-bottom: 5px;
             }
 
             h4 {
                 font-size: 12px;
                 margin-bottom: 20px;
+                color: rgb(59, 58, 58);
+            }
+
+            .header {
+                font-size: 14px;
+                background-color: black;
+                padding: 5px;
+                color: rgb(59, 58, 58);
+                border-style:ridge;
+                border-color: black;
+            }
+
+            h5 {
+                font-size: 16px;
+                color: rgb(59, 58, 58);
+                padding: 0;
+                margin: 2px;
+                margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 1px;
             }
 
             .footer {
                 background-color: black;
                 position: fixed bottom;
+                padding: 10px;
                 color: rgb(59, 58, 58);
+                border-style:ridge;
+                border-color: black;
+            }
+
+            .descrição {
+                color: rgb(175, 165, 165);
+                font-size: 16px;
             }
 
         </style>
     </head>
     <body>
         <center>
+        <header class="header">
+            Developed by <a href="https://github.com/vtfeitosa" target="_blank">vtfeitosa</a>
+        </header>
         <div class="fundo">
             <h3>PLAYLIST PÚBLICA</h3>
+            <h5>144 músicas | cerca de 9h e 30min</h5>
             <h4 hidden>Alceu Valença, Geraldo Azevedo, Caetano Veloso, Djavan, Adriana Calcanhoto, Raul Seixas, Belchior,
             Oswaldo Montenegro, Zeca Baleiro, Ney Matogrosso, Lenine, Chico Buarque, Fagner, Zé Ramalho, Cazuza,
             Tim Maia, Gal Costa, Gilberto Gil, Milton Nascimento, Elis Regina, Rita Lee, Novos Baianos, Jorge Ben Jor.>
@@ -63,10 +98,11 @@
             <a href="https://open.spotify.com/playlist/4AavL8hptClk40908EOf6s?si=e57718b7b8a142ca" target="_blank">
                 <img src="./assets/images/capa_tuts_tan.jpg" alt="foto de uma taça de vinho na frente
                 de uma tela de televisão com a imagem de Caetano Veloso e Gilberto Gil cantando juntos."
-                class="playlist_image" height="250px">
+                class="playlist_image" height="240px">
             </a>
             <h1>Tuts tan</h1>
-            <p>
+            <h5>Descrição:</h5>
+            <p class="descrição">
             Vinho e MPB, quero mais oq?
             </p>
             <h4>Created by <a href="https://open.spotify.com/user/vitoriamariacf?si=02a211eb894f4a51">dory</a></h4>
